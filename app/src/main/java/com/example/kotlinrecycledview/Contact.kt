@@ -1,3 +1,5 @@
 package com.example.kotlinrecycledview
 
-data class Contact(val name: String, val age: Int)
+data class Contact(val name: String, val age: Int) {
+    val imageUrl = "https://picsum.photos/150?random=$age"
+}
